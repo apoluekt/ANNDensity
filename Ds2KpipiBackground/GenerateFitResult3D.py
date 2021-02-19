@@ -45,4 +45,4 @@ chi2 = np.sum((fit-hist[0])**2/fit)
 
 print(fit)
 print(hist[0])
-print(chi2)
+print(f"Chi2={chi2}")
