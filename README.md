@@ -13,4 +13,6 @@ The two subdirectories contain examples of density estimation for the efficiency
 * Ds2KpipiEfficiency: Estimation of efficiency (Sections 6 and 8.2 of arXiv:1902.01452)
 * Ds2KpipiBackground: Estimation of background (Sections 7.2 and 8.3 of arXiv:1902.01452)
 
+## Running the code
+
 Each subdirectory contains the file `runme.sh` which can be executed to perform all the steps (generation ot toy MC samples, ANN training, fitting etc.). It's best to run them on a machine with good GPU. The whole cycle takes a few hours on a machine with Tesla p100 card. 
